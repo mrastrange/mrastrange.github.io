@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta properties -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <meta name="description" content="A Web Designer, Android Developer.">
+    <meta name="keywords" content="Alpha, czyalpha, Web Developer">
+    <meta name="title" content="Skills">
+    <meta property="og:title" content="Skills">
+    <meta property="og:description" content="A Web Designer, Android Developer.">
+    <meta property="og:url" content="https://mrastrange.github.io">
+    <meta property="og:site_name" content="mrastrange.github.io/skills">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alpha - Skills">
+    <meta name="twitter:description" content="A Web Designer, Android Developer.">
+    <meta name="twitter:image"
+        content="https://github.com/mrastrange/mrastrange.github.io/blob/main/favicons/apple-touch-icon.png">
+
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./styles/tailwindoutput.css">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="512x512" href="favicons/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+
+</head>
+
+<body data-barba="wrapper" x-data>
+    <div class="load-container">
+        <div class="loading-screen"></div>
+    </div>
+
+    <div class="h-min">
+        <!-- navbar goes here -->
+        <nav class=" max-w-7xl mx-auto px-8 md:flex md:items-center md:justify-between" x-data="{ navBar: false }">
+            <div class="flex justify-between items-center h-24">
+                <a href="https://mrastrange.github.io">
+                    <svg height="40px" width="40px" class="logoHover" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 37.3 33.03">
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="cls-1"
+                                    d="M25.72,25.67l-2.46,2.24-4.59-4.54q-9-8.92-18-17.88A2.37,2.37,0,0,1,.09,4.13C0,2.94.06,1.75.06.26ZM21,30.33.07,9.62c0,.61,0,1.21,0,1.82-.32,2.05.51,3.46,2,4.88,5.59,5.35,11,10.86,16.64,16.42Zm2.83-12.06q6.54-6.6,13.05-13.21c.15-.15.38-.32.39-.49,0-1.53,0-3,0-4.57L21.09,16.28l2.28,2.36.44-.37Zm13.2-4a.78.78,0,0,0,.27-.44c0-1.5,0-3,0-4.36L25.85,21l2.22,2.4c3.05-3.11,6-6.11,8.94-9.12ZM28.36,32.43,37,23.57a.89.89,0,0,0,.26-.45c0-1.5,0-3,0-4.61a2.36,2.36,0,0,0-.42.28Q32.64,23,28.44,27.32a1.27,1.27,0,0,0-.38.72c0,1.41,0,2.82,0,4.23ZM.1,23.07a1.91,1.91,0,0,0,.51,1.08c2.62,2.63,5.25,5.26,7.9,7.86a6.76,6.76,0,0,0,.74.55c0-1.34.06-2.48,0-3.61a2.59,2.59,0,0,0-.6-1.47c-1.28-1.38-2.64-2.66-4-4L.07,19c0,1.6,0,2.84,0,4.08ZM32.38,33h4.87V28.14ZM.15,28.7V33H4.08Z" />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+
+                <button class="md:hidden text-white focus:outline-none" @click="navBar = !navBar">
+                    <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z"
+                            fill="white" />
+                    </svg>
+                </button>
+            </div>
+
+            <ul class="md:flex md:items-center z-[1] text-center md:z-auto md:static absolute w-full left-0 md:w-auto bg-primary backdrop-blur md:py-0 space-x-4 md:opacity-100 top-[-400px] transition-all ease-in duration-400"
+                :class="{'top-[95px]': navBar, 'opacity-0': !navBar }">
+
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="skills"
+                        class="py-2 md:px-3 text-xl text-white hover:bg-blue-600 hover:text-white rounded transition duration-300 cursor-scale small"
+                        @click="navBar = false">Skills</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="contact"
+                        class="py-2 md:px-3 text-xl text-white hover:bg-blue-600 hover:text-white rounded transition duration-300 cursor-scale small"
+                        @click="navBar = false">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- content goes here -->
+        <div class="py-32 text-center cursor-none" data-barba="container" data-barba-namespace="skills">
+            <h2 class="font-extrabold text-4xl py-1 xl:mx-110 2xl:mx-128 text-white cursorHover">Skills</h2>
+
+            <div class="flex justify-center">
+
+                <div
+                    class="grid grid-rows-5 gap-2 sm:grid-cols-2 sm:grid-rows-3 sm:mx-14 sm:mt-12 lg:grid-col-3 lg:grid-rows-2 lg:grid-flow-col lg:gap-5 lg:ml-20">
+
+                    <div class="p-8 ml-5 md:ml-0 space-y-2 mt-12 w-96 h-56 sm:mt-0 text-left transtion-all duration-300 ease-in-out hover:shadow-[0_10px_20px_0_rgba(0,0,0,0.315),0_6px_6px_0_rgba(0,0,0,0.205)] cursorHover"
+                        x-intersect="$el.classList.add('fadeInUp')">
+
+                        <h2 class="text-2xl py-5 text-white font-semibold leading-6">Web Designing</h2>
+                        <p class="text-lg text-slate-200">UI/UX Designing</p>
+                        <div style="margin-top: 2rem;"
+                            class="w-full max-w-[185px] h-1.5 bg-slate-200 rounded-[3px] overflow-hidden">
+                            <span
+                                class="h-full block bg-[linear-gradient(90deg,#ffd33d,#ea4aaa_17%,#b34bff_34%,#01feff_51%,#ffd33d_68%,#ea4aaa_85%,#b34bff)] bg-[length:300%_100%] animate-[progress-animation_2s_linear_infinite]"
+                                style="width: 60%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="p-8 ml-5 md:ml-0 space-y-2 mt-12 w-96 h-56 sm:mt-0 text-left transtion-all duration-300 ease-in-out hover:shadow-[0_10px_20px_0_rgba(0,0,0,0.315),0_6px_6px_0_rgba(0,0,0,0.205)] cursorHover"
+                        x-intersect="$el.classList.add('fadeInUp')">
+
+                        <h2 class="text-2xl py-5 text-white font-semibold leading-6">Web Development</h2>
+                        <p class="text-lg text-slate-200">HTML/CSS</p>
+                        <div style="margin-top: 2rem;"
+                            class="w-full max-w-[185px] h-1.5 bg-slate-200 rounded-[3px] overflow-hidden">
+                            <span
+                                class="h-full block bg-[linear-gradient(90deg,#ffd33d,#ea4aaa_17%,#b34bff_34%,#01feff_51%,#ffd33d_68%,#ea4aaa_85%,#b34bff)] bg-[length:300%_100%] animate-[progress-animation_2s_linear_infinite]"
+                                style="width: 70%"></span>
+                        </div>
+                    </div>
+
+                    <div class="p-8 ml-5 md:ml-0 space-y-2 mt-12 w-96 h-56 sm:mt-0 text-left transtion-all duration-300 ease-in-out hover:shadow-[0_10px_20px_0_rgba(0,0,0,0.315),0_6px_6px_0_rgba(0,0,0,0.205)] cursorHover"
+                        x-intersect="$el.classList.add('fadeInUp')">
+
+                        <h2 class="text-2xl py-5 text-white font-semibold leading-6">OOP</h2>
+                        <p class="text-lg text-slate-200">C/C++</p>
+                        <div style="margin-top: 2rem;"
+                            class="w-full max-w-[185px] h-1.5 bg-slate-200 rounded-[3px] overflow-hidden">
+                            <span
+                                class="h-full block bg-[linear-gradient(90deg,#ffd33d,#ea4aaa_17%,#b34bff_34%,#01feff_51%,#ffd33d_68%,#ea4aaa_85%,#b34bff)] bg-[length:300%_100%] animate-[progress-animation_2s_linear_infinite]"
+                                style="width: 20%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="text-slate-300 footer mt-24 cursorHover">With <span class="text-red-600">❤</span> by <span
+                    class="text-blue-600">Alpha</span> </p>
+        </div>
+    </div>
+
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+    <script src="./dist/bundle.js"></script>
+
+</body>
+
+</html>
