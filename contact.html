@@ -65,7 +65,11 @@
 
             <ul class="md:flex md:items-center z-[1] text-center md:z-auto md:static absolute w-full left-0 md:w-auto bg-primary backdrop-blur md:py-0 space-x-4 md:opacity-100 top-[-400px] transition-all ease-in duration-400"
                 :class="{'top-[95px]': navBar, 'opacity-0': !navBar }">
-
+                <li class="ml-4 my-6 md:my-0 md:mx-0">
+                    <a href="works"
+                        class="py-2 md:px-3 text-xl text-white hover:bg-blue-600 hover:text-white rounded transition duration-300 cursor-scale small"
+                        @click="navBar = false">Works</a>
+                </li>
 
                 <li class="mx-4 my-6 md:my-0">
                     <a href="skills"
